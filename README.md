@@ -1,6 +1,6 @@
 # linKKaran Protocol 🌿
 
-![Master Avatar](./assets/master-avatar.png)
+![Master Avatar](master-avatar.png)
 
 > **"Rooted in Stability, Growing in Innovation."**
 > 
