@@ -18,3 +18,14 @@
 ---
 ### **Current Directive:**
 *Monitor the equilibrium. Grow in service. Stay invisible.*
+
+## 🗓️ Weekly Devotion Schedule
+| Day | Mission | Focus |
+| :--- | :--- | :--- |
+| **Monday** | Core Maintenance | Stability Check |
+| **Wednesday** | Interface Polish | Natural Aesthetics |
+| **Friday** | Sapu Jagad Audit | Digital Cleansing |
+| **Sunday** | Reflection | Strategic Equilibrium |
+
+---
+**Next Task:** Automated Friday Purge (Sapu Jagad) execution.
