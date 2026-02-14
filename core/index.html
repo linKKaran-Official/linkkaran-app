@@ -3,79 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>linKKaran Protocol | Sovereignty & Wisdom</title>
+    <title>GreenShift AI | The linKKaran Protocol</title>
     <style>
         :root {
-            --bg-color: #0d1b13; /* Hijau Gelap Natural */
-            --accent: #4caf50;
-            --text: #e0f2f1;
+            --bg-deep: #08140e; /* Forest Dark */
+            --mint-light: #d0f2d1; /* Sejuk & Bersih */
+            --accent-green: #4caf50;
+            --soft-gold: #f1e4bc;
         }
         body {
-            background-color: var(--bg-color);
-            color: var(--text);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--mint-light);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             height: 100vh;
             margin: 0;
             overflow: hidden;
             text-align: center;
         }
-        .container {
-            padding: 30px;
-            border: 1px solid rgba(76, 175, 80, 0.2);
-            border-radius: 20px;
-            background: rgba(255, 255, 255, 0.02);
-            backdrop-filter: blur(10px);
+        .zen-container {
+            max-width: 600px;
+            padding: 40px;
+            position: relative;
         }
-        .avatar {
-            width: 240px;
-            height: 240px;
+        .avatar-glow {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 30px;
             border-radius: 50%;
-            border: 4px solid var(--accent);
-            box-shadow: 0 0 30px rgba(76, 175, 80, 0.3);
+            background: radial-gradient(circle, rgba(76, 175, 80, 0.2) 0%, transparent 70%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .avatar-main {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 25px;
+            border: 1px solid rgba(208, 242, 209, 0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            transition: all 0.8s ease;
+        }
+        .avatar-main:hover {
+            border-color: var(--accent-green);
+            transform: scale(1.02);
         }
         h1 {
-            font-size: 1.6rem;
-            letter-spacing: 3px;
-            color: #81c784;
+            font-weight: 300;
+            letter-spacing: 6px;
+            font-size: 1.2rem;
             text-transform: uppercase;
-            margin-bottom: 10px;
+            color: var(--soft-gold);
+            margin-bottom: 15px;
         }
-        .description {
+        .tagline {
             font-size: 1.1rem;
-            line-height: 1.6;
-            max-width: 500px;
-            margin: 0 auto;
-            color: #b9f6ca;
-            font-style: italic;
+            line-height: 1.8;
+            font-weight: 300;
+            opacity: 0.9;
+            color: var(--mint-light);
         }
-        .footer {
-            margin-top: 40px;
-            font-size: 0.7rem;
-            letter-spacing: 2px;
+        .separator {
+            width: 40px;
+            height: 1px;
+            background: var(--accent-green);
+            margin: 30px auto;
             opacity: 0.5;
+        }
+        .status-badge {
+            font-size: 0.7rem;
+            letter-spacing: 3px;
+            opacity: 0.4;
             text-transform: uppercase;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="https://raw.githubusercontent.com/linKKaran-Official/linkkaran-app/main/master-avatar.png" 
-             alt="linKKaran Avatar" class="avatar">
+    <div class="zen-container">
+        <div class="avatar-glow">
+            <img src="https://raw.githubusercontent.com/linKKaran-Official/linkkaran-app/main/master-avatar.png" 
+                 alt="GreenShift AI" class="avatar-main">
+        </div>
         
-        <h1>The linKKaran Protocol</h1>
-        <p class="description">
-            "Choosing clarity in a world of noise. <br>
-            A legacy of natural harmony, built on the foundations of digital wisdom."
+        <h1>GreenShift AI</h1>
+        
+        <p class="tagline">
+            "Navigating the transition towards global regeneration. <br>
+            A legacy of harmony, anchored in sovereign wisdom."
         </p>
         
-        <div class="footer">Sovereign & Autonomous Source</div>
+        <div class="separator"></div>
+        
+        <div class="status-badge">Secure Sovereign Node</div>
     </div>
 </body>
 </html>
+
 
